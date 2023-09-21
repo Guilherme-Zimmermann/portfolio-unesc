@@ -1,0 +1,28 @@
+.about-me {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    margin-top: -140px;
+
+    grid-area: about-me;
+}
+
+.about-me h3 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: var(--text-primary);
+}
+
+.about-me p, li{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+    color: var(--text-secondary);
+    text-indent: 14px;
+}
+
+.about-me li {
+    margin-left: 34px;
+}

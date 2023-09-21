@@ -1,0 +1,29 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    
+    grid-area: info;
+}
+.info h3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: var(--text-primary);
+}
+
+.info .list {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: var(--text-secondary);
+    margin-left: 34px;
+}
+
+.info p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: var(--text-secondary);
+    text-indent: 14px;
+}

@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-items: start;
+    gap: 24px;
+
+    margin-top: -150px;
+
+    grid-area: headers;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    color: var(--text-primary);
+}
+
+header h2 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    color: var(--text-secondary);
+} 
+header .img-portfolio {
+    width: 220px;
+    height: 220px;
+    border-radius: 100%;
+    border: 1px solid white;
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+header .img-portfolio:hover {
+    transform: scale(1.15, 1.15);
+}

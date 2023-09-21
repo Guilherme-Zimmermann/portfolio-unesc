@@ -1,0 +1,17 @@
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+    grid-area: btn;
+}
+
+.btn a{
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
